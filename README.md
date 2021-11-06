@@ -1,3 +1,3 @@
 # R_PythonCourseKNU
-
-### My R and Python labs for KNU
+## Kolumbet Anton 
+### My R and Python labs for KNU FIT
