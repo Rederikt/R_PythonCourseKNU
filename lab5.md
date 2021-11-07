@@ -60,13 +60,6 @@ complete("specdata", 10:20)
 кореляції між сульфатами та нітратами використовуйте вбудовану функцію 
 «cor» з параметрами за замовчуванням.
 
-corr <- function(directory, threshold){
-
-  dataf <- do.call(rbind,lapply(files,read.csv))
-  datafr <- data.frame(table(dataf$ID))
-  datafr[id, 1:2]
-}
-complete("specdata", 10:20)
 
 ```{r}
 corr <- function(directory, threshold = 0) {
